@@ -1,142 +1,187 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Master | Adityo Wandasa Dharma Pratama</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Adityo Wandasa Dharma Pratama</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
 
-    <nav class="bg-white shadow-sm sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 class="text-xl font-bold text-indigo-600">ADITYO.WDP <span class="text-xs font-normal text-gray-400 block">Master of Engineering</span></h1>
-            <div class="hidden md:flex space-x-6">
-                <a href="#about" class="hover:text-indigo-600 transition">Profil</a>
-                <a href="#education" class="hover:text-indigo-600 transition">Pendidikan</a>
-                <a href="#experience" class="hover:text-indigo-600 transition">Pengalaman</a>
-                <a href="#contact" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition">Hubungi</a>
-            </div>
-        </div>
-    </nav>
+  <!-- NAVBAR -->
+  <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-600">ADITYO.WDP</h1>
+      <div class="space-x-6">
+        <a href="#about" class="hover:text-blue-600 transition">Tentang</a>
+        <a href="#education" class="hover:text-blue-600 transition">Pendidikan</a>
+        <a href="#experience" class="hover:text-blue-600 transition">Pengalaman</a>
+        <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Kontak</a>
+      </div>
+    </div>
+  </nav>
 
-    <header class="bg-white py-20 border-b">
-        <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center">
-            <div class="md:w-2/3">
-                <h2 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight text-gray-900">
-                    Master of <span class="text-indigo-600">Electrical Engineering</span> & Java Expert
-                </h2>
-                <p class="text-lg text-gray-600 mb-8 max-w-2xl leading-relaxed">
-                    Spesialis dalam <strong>Control and Intelligence System</strong>. Menggabungkan keahlian mendalam di bidang sistem kontrol robotika dengan kecakapan pengembangan perangkat lunak Java tingkat industri.
-                </p>
-                <div class="flex space-x-4">
-                    <a href="mailto:adityo010101@gmail.com" class="bg-indigo-600 text-white px-6 py-3 rounded-lg flex items-center shadow-lg hover:bg-indigo-700 transition">
-                        <i class="fas fa-paper-plane mr-2"></i> Kolaborasi Sekarang
-                    </a>
-                </div>
-            </div>
-            <div class="md:w-1/3 mt-10 md:mt-0 flex justify-center">
-                <div class="w-64 h-64 rounded-2xl border-4 border-indigo-500 shadow-2xl overflow-hidden relative">
-                    <img src="profile.jpg" alt="Adityo Wandasa" class="w-full h-full object-cover bg-indigo-50">
-                </div>
-            </div>
+  <!-- HEADER -->
+  <header id="about" class="bg-white py-20 border-b">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center">
+      <div class="md:w-2/3">
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
+          Java Developer & <span class="text-blue-600">Electrical Engineer</span>
+        </h2>
+        <p class="text-lg text-gray-600 mb-8 max-w-2xl">
+          Lulusan Teknik Elektro Universitas Telkom dengan spesialisasi pengembangan sistem Fullstack Java (Spring Boot) dan pengalaman kepemimpinan teknis di bidang robotika.
+        </p>
+        <div class="flex space-x-4">
+          <a href="mailto:adityo010101@gmail.com" class="bg-gray-800 text-white px-6 py-3 rounded-lg flex items-center shadow-lg hover:bg-black transition">
+            <i class="fas fa-envelope mr-2"></i> Hubungi Saya
+          </a>
         </div>
-    </header>
-
-    <section id="about" class="py-16 bg-white">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="bg-indigo-50 p-8 rounded-2xl border border-indigo-100">
-                <h3 class="text-2xl font-bold mb-4">Tentang Saya</h3>
-                <p class="text-gray-700 leading-relaxed text-lg">
-                    Sebagai lulusan Magister Teknik Elektro dari Universitas Telkom dengan IPK 3.59, saya memiliki fondasi teoritis yang kuat dalam sistem kecerdasan dan kontrol. Pengalaman saya sebagai CTO di Robosport dan Java Developer di Xsis Academy memungkinkan saya untuk mengimplementasikan algoritma kompleks ke dalam aplikasi perangkat lunak yang fungsional dan skalabel.
-                </p>
-            </div>
+      </div>
+      <div class="md:w-1/3 mt-10 md:mt-0 flex justify-center">
+        <div class="w-64 h-64 rounded-2xl border-4 border-blue-500 shadow-xl overflow-hidden transition duration-500 ease-in-out hover:border-blue-400 hover:shadow-blue-500/50">
+          <img src="profile.jpg" alt="Adityo Wandasa"
+               class="w-full h-full object-cover bg-blue-100 transition-transform duration-500 ease-in-out hover:scale-110">
         </div>
-    </section>
+      </div>
+    </div>
+  </header>
 
-    <section id="education" class="py-16 max-w-6xl mx-auto px-4">
-        <h3 class="text-2xl font-bold mb-10 flex items-center">
-            <i class="fas fa-graduation-cap mr-3 text-indigo-600"></i> Rekam Jejak Akademik
-        </h3>
+  <!-- PENDIDIKAN -->
+  <section id="education" class="py-16 max-w-6xl mx-auto px-4">
+    <h3 class="text-2xl font-bold mb-10 flex items-center">
+      <i class="fas fa-graduation-cap mr-3 text-blue-600"></i> Pendidikan
+    </h3>
+
+    <!-- Card S1 dengan modal pop-up -->
+    <div onclick="document.getElementById('modalS1').classList.remove('hidden')"
+         class="bg-white p-8 rounded-xl shadow-sm border-l-8 border-blue-600 relative cursor-pointer hover:shadow-lg transition">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+        <div>
+          <h4 class="text-xl font-bold text-gray-900">Universitas Telkom</h4>
+          <p class="text-lg text-blue-600 font-medium">S1 Teknik Elektro</p>
+        </div>
+        <div class="text-right mt-2 md:mt-0">
+          <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">2016 - 2020</span>
+          <p class="text-gray-500 mt-1">IPK: 3.38 / 4.00</p>
+        </div>
+      </div>
+      <p class="mt-4 text-gray-600 italic">Klik untuk melihat ijazah & transkrip.</p>
+    </div>
+
+    <!-- Modal Pop-up -->
+    <div id="modalS1" class="hidden fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
+      <div class="bg-white p-6 rounded-lg max-w-3xl w-full relative overflow-y-auto max-h-[90vh]">
+        <!-- Tombol close -->
+        <button onclick="document.getElementById('modalS1').classList.add('hidden')"
+                class="absolute top-2 right-2 text-gray-600 hover:text-red-500 text-2xl">&times;</button>
         
-        <div class="space-y-6">
-            <div class="bg-white p-8 rounded-xl shadow-sm border-l-8 border-indigo-600 relative overflow-hidden">
-                <div class="absolute top-0 right-0 bg-indigo-600 text-white px-4 py-1 rounded-bl-lg text-xs font-bold uppercase">Terbaru</div>
-                <div class="flex flex-col md:flex-row justify-between items-start">
-                    <div>
-                        <h4 class="text-xl font-bold text-gray-900">Universitas Telkom</h4>
-                        <p class="text-lg text-indigo-600 font-semibold italic">Master of Electrical Engineering (Control and Intelligence System)</p>
-                    </div>
-                    <div class="md:text-right mt-2 md:mt-0">
-                        <span class="text-gray-500 font-medium">Agu 2020 - Feb 2023</span>
-                        <p class="text-indigo-700 font-bold text-xl mt-1">IPK: 3.59 / 4.00</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bg-white p-8 rounded-xl shadow-sm border-l-8 border-blue-400">
-                <div class="flex flex-col md:flex-row justify-between items-start">
-                    <div>
-                        <h4 class="text-xl font-bold text-gray-900">Universitas Telkom</h4>
-                        <p class="text-lg text-blue-500 font-semibold italic">Bachelor of Electrical Engineering</p>
-                    </div>
-                    <div class="md:text-right mt-2 md:mt-0">
-                        <span class="text-gray-500 font-medium">2016 - 2020</span>
-                        <p class="text-gray-700 font-bold text-xl mt-1">IPK: 3.38 / 4.00</p>
-                    </div>
-                </div>
-            </div>
+        <h3 class="text-xl font-bold mb-4">Ijazah & Transkrip S1</h3>
+        <div class="space-y-4">
+          <!-- Ijazah -->
+          <img src="ijazah-s1.jpg" alt="Ijazah S1" class="w-full rounded-lg shadow-md">
+          <!-- Transkrip halaman 1 -->
+          <img src="transkrip-s1-1.jpg" alt="Transkrip S1 Halaman 1" class="w-full rounded-lg shadow-md">
+          <!-- Transkrip halaman 2 -->
+          <img src="transkrip-s1-2.jpg" alt="Transkrip S1 Halaman 2" class="w-full rounded-lg shadow-md">
         </div>
-    </section>
+      </div>
+    </div>
 
-    <section id="experience" class="py-16 bg-gray-100">
-        <div class="max-w-6xl mx-auto px-4">
-            <h3 class="text-2xl font-bold mb-12 flex items-center">
-                <i class="fas fa-microchip mr-3 text-indigo-600"></i> Pengalaman Teknis
-            </h3>
-            
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-indigo-500">
-                    <span class="text-xs font-bold text-indigo-500 uppercase tracking-widest">IT Development</span>
-                    <h4 class="text-xl font-bold mt-2">Java Developer Intern</h4>
-                    <p class="text-gray-500 mb-4 text-sm">Xsis Academy | 2023 - 2024</p>
-                    <p class="text-gray-600 leading-relaxed italic">"Implementasi Java, Spring Boot, dan PostgreSQL dalam pengembangan solusi web fungsional."</p>
-                </div>
+<!-- Card S2 dengan modal pop-up -->
+<div onclick="document.getElementById('modalS2').classList.remove('hidden')"
+     class="bg-white p-8 rounded-xl shadow-sm border-l-8 border-green-600 relative cursor-pointer hover:shadow-lg transition mt-8">
+  <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+    <div>
+      <h4 class="text-xl font-bold text-gray-900">Universitas Telkom</h4>
+      <p class="text-lg text-green-600 font-medium">S2 Teknik Elektro (Control and Intelligence System)</p>
+    </div>
+    <div class="text-right mt-2 md:mt-0">
+      <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">2020 - 2023</span>
+      <p class="text-gray-500 mt-1">IPK: 3.59 / 4.00</p>
+    </div>
+  </div>
+  <p class="mt-4 text-gray-600 italic">Klik untuk melihat ijazah & transkrip.</p>
+</div>
 
-                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-indigo-500">
-                    <span class="text-xs font-bold text-indigo-500 uppercase tracking-widest">Engineering Leadership</span>
-                    <h4 class="text-xl font-bold mt-2">Chief Technology Officer (CTO)</h4>
-                    <p class="text-gray-500 mb-4 text-sm">Robosport Bandung | 2021 - 2022</p>
-                    <p class="text-gray-600 leading-relaxed italic">"Memimpin riset dan pengembangan sistem elektronik presisi untuk teknologi asisten olahraga robotik."</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Modal Pop-up S2 -->
+<div id="modalS2" class="hidden fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
+  <div class="bg-white p-6 rounded-lg max-w-3xl w-full relative overflow-y-auto max-h-[90vh]">
+    <!-- Tombol close -->
+    <button onclick="document.getElementById('modalS2').classList.add('hidden')"
+            class="absolute top-2 right-2 text-gray-600 hover:text-red-500 text-2xl">&times;</button>
+    
+    <h3 class="text-xl font-bold mb-4">Ijazah & Transkrip S2</h3>
+    <div class="space-y-4">
+      <!-- Ijazah -->
+      <img src="ijazah-s2.jpg" alt="Ijazah S2" class="w-full rounded-lg shadow-md">
+      <!-- Transkrip halaman 1 -->
+      <img src="transkrip-s2-1.jpg" alt="Transkrip S2 Halaman 1" class="w-full rounded-lg shadow-md">
+      <!-- Transkrip halaman 2 -->
+      <img src="transkrip-s2-2.jpg" alt="Transkrip S2 Halaman 2" class="w-full rounded-lg shadow-md">
+      <!-- Transkrip halaman 3 -->
+      <img src="transkrip-s2-3.jpg" alt="Transkrip S2 Halaman 3" class="w-full rounded-lg shadow-md">
+    </div>
+  </div>
+</div>
+  </section>
 
-    <section id="skills" class="py-16 max-w-6xl mx-auto px-4">
-        <h3 class="text-2xl font-bold mb-8">Keahlian Strategis</h3>
-        <div class="flex flex-wrap gap-4">
-            <div class="bg-indigo-100 text-indigo-800 px-6 py-2 rounded-lg font-bold border border-indigo-200">Intelligence System</div>
-            <div class="bg-indigo-100 text-indigo-800 px-6 py-2 rounded-lg font-bold border border-indigo-200">Robotics Control</div>
-            <div class="bg-blue-100 text-blue-800 px-6 py-2 rounded-lg font-bold border border-blue-200">Java Fullstack</div>
-            <div class="bg-blue-100 text-blue-800 px-6 py-2 rounded-lg font-bold border border-blue-200">Spring Boot</div>
-            <div class="bg-gray-100 text-gray-800 px-6 py-2 rounded-lg font-bold border border-gray-200">AWS Cloud Essentials</div>
-        </div>
-    </section>
+  <!-- PENGALAMAN -->
+<section id="experience" class="py-16 bg-gray-100">
+  <div class="max-w-6xl mx-auto px-4">
+    <h3 class="text-2xl font-bold mb-12 flex items-center">
+      <i class="fas fa-briefcase mr-3 text-indigo-600"></i> Pengalaman Profesional
+    </h3>
+    
+    <div class="space-y-8">
+      <!-- BPJS Kesehatan -->
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-600">
+        <h4 class="text-xl font-bold text-gray-900">Internship</h4>
+        <p class="text-blue-600 font-semibold mb-2">BPJS Kesehatan Cabang Jambi | Mei 2018 - Jul 2018</p>
+        <p class="text-gray-600">Mengelola dokumen, mencetak kartu BPJS, dan mendukung pekerjaan staf.</p>
+      </div>
 
-    <footer id="contact" class="bg-gray-900 text-white py-16">
-        <div class="max-w-6xl mx-auto px-4 text-center">
-            <h3 class="text-3xl font-bold mb-4">Mari Berdiskusi</h3>
-            <p class="text-gray-400 mb-10 max-w-xl mx-auto">Saya terbuka untuk peran yang menantang di bidang rekayasa sistem, pengembangan AI, atau arsitektur perangkat lunak.</p>
-            <div class="flex justify-center space-x-10 text-3xl">
-                <a href="https://www.linkedin.com/in/adityowdp" class="hover:text-indigo-400 transition transform hover:scale-110"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:adityo010101@gmail.com" class="hover:text-red-400 transition transform hover:scale-110"><i class="fas fa-envelope"></i></a>
-				<a href="tel:+628983070306" class="hover:text-green-400 transition"><i class="fas fa-phone"></i></a>
-            </div>
-            <p class="mt-16 text-gray-600 text-xs font-mono uppercase tracking-widest">Master of Engineering Portfolio &bull; Adityo WDP &bull; 2024</p>
-        </div>
-    </footer>
+      <!-- Telkom Network Area Jambi -->
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-indigo-600">
+        <h4 class="text-xl font-bold text-gray-900">Volunteer / Internship</h4>
+        <p class="text-indigo-600 font-semibold mb-2">PT. Telkom Network Area Jambi | Jun 2019 - Jul 2019</p>
+        <p class="text-gray-600">Membantu pemasangan jaringan kabel optik, perangkat internet, dan sistem daya perangkat telekomunikasi.</p>
+      </div>
+
+      <!-- Robosport -->
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-600">
+        <h4 class="text-xl font-bold text-gray-900">Chief Technology Officer (CTO)</h4>
+        <p class="text-blue-600 font-semibold mb-2">Robosport Bandung | Jan 2021 - Mei 2022</p>
+        <p class="text-gray-600">Memimpin tim teknis dalam desain robot pelempar bola ping pong otomatis dan bertanggung jawab pada bidang elektronik.</p>
+      </div>
+
+      <!-- Mandiri Bank -->
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-indigo-600">
+        <h4 class="text-xl font-bold text-gray-900">Internship</h4>
+        <p class="text-indigo-600 font-semibold mb-2">Mandiri Bank (Virtual Project-Based) | Aug 2023 - Sep 2023</p>
+        <p class="text-gray-600">Menyelesaikan program internship developer aplikasi mobile berbasis proyek dari Bank Mandiri x Rakamin Academy.</p>
+      </div>
+
+      <!-- Xsis Academy -->
+      <div class="bg-white p-6 rounded-lg shadow-sm border-l-4 border-blue-600">
+        <h4 class="text-xl font-bold text-gray-900">Internship Java Developer</h4>
+        <p class="text-blue-600 font-semibold mb-2">Xsis Academy Yogyakarta | Aug 2023 - Feb 2024</p>
+        <p class="text-gray-600">Belajar Fullstack Java, PostgreSQL, Spring Boot, JavaScript, jQuery, HTML, CSS, dan Bootstrap. Mengerjakan mini project berupa website fungsional.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="bg-gray-900 text-white py-12 text-center">
+    <h3 class="text-2xl font-bold mb-6">Kontak Saya</h3>
+    <div class="flex justify-center space-x-8 text-2xl">
+      <a href="https://www.linkedin.com/in/adityowdp" class="hover:text-blue-400"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:adityo010101@gmail.com" class="hover:text-red-400"><i class="fas fa-envelope"></i></a>
+      <a href="tel:+628983070306" class="hover:text-green-400 transition"><i class="fas fa-phone"></i></a>
+    </div>
+    <p class="mt-10 text-gray-500 text-xs tracking-widest uppercase">Adityo Wandasa Dharma Pratama</p>
+  </footer>
 
 </body>
 </html>
